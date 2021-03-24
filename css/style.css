@@ -78,11 +78,30 @@ icons */
     content: "\ea98";
 }
 
+.icon-location2::before {
+    content: '\e948';
+    position: absolute;
+    top: 2px;
+    left: -20px;
+}
+
+.icon-phone::before {
+    content: '\e942';
+    position: absolute;
+    top: 2px;
+    left: -20px;
+}
+
+.icon-enter::before {
+    content: '\ea13';
+    position: absolute;
+    top: 2px;
+    left: -24px;
+}
+
 
 /* --------------------------------------------------------------------------------  
 header */
-
-.header {}
 
 .header__top_list {
     display: flex;
@@ -103,27 +122,6 @@ header */
     color: var(--black);
 }
 
-.top__list_adress::before {
-    content: '\e948';
-    position: absolute;
-    top: 2px;
-    left: -20px;
-}
-
-.top__list_tel::before {
-    content: '\e942';
-    position: absolute;
-    top: 2px;
-    left: -20px;
-}
-
-.top__list_login::before {
-    content: '\ea13';
-    position: absolute;
-    top: 2px;
-    left: -24px;
-}
-
 
 /* --------------------------------------------------------------------------------  */
 
@@ -139,5 +137,8 @@ header */
 @media (max-width: 655px) {
     .header__top_list-item span {
         display: none;
+    }
+    .header__top_list-link::before {
+        left: -8px;
     }
 }
