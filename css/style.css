@@ -62,23 +62,6 @@ icons */
     content: "\e93a";
 }
 
-
-/* 
-.icon-phone:before {
-    content: "\e942";
-} */
-
-
-/* .icon-location2:before {
-    content: "\e948";
-} */
-
-
-/* 
-.icon-enter:before {
-    content: "\ea13";
-} */
-
 .icon-arrow-right2:before {
     content: "\ea3c";
 }
@@ -103,7 +86,7 @@ header */
 
 .header__top_list {
     display: flex;
-    max-width: 55vw;
+    max-width: 98vw;
     width: 100%;
     margin: 1rem auto;
     justify-content: center;
@@ -152,18 +135,6 @@ header */
 
 
 /* --------------------------------------------------------------------------------  */
-
-@media (max-width: 1100px) {
-    .header__top_list {
-        max-width: 80%;
-    }
-}
-
-@media (max-width: 800px) {
-    .header__top_list {
-        max-width: 98%;
-    }
-}
 
 @media (max-width: 655px) {
     .header__top_list-item span {
