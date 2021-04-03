@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
+    <div class="container">
+        <header class="header">
             <div class="header__top">
                 <ul class="header__top_list">
                     <li class="header__top_list-item">
@@ -46,17 +48,70 @@
                 </ul>
 
             </nav>
-        </div>
-    </header>
+        </header>
 
-    <main class="main">
+        <main class="main">
+            <section class="slider">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
 
-    </main>
+                        <div class="swiper-slide slide">
+                            <div class="slide__wrapper">
+                                <p class="slide__banner">СКИДКИ ДО 25%</p>
+                                <h2 class="slide__title">Спреи для кожи от <br>Leather Defender Corp.</h2>
+                                <p class="slide__text">Средства премиального класса для ухода за изделиями из натуральной кожи по самым выгодным ценам.</p>
+                                <a href="#!" class="slide__link icon-arrow-right2">Подробнее</a>
+                            </div>
+                            <img class="slide__img" src="/img/slider/slider001.png" alt="shoe care products">
+                        </div>
 
-    <footer class="footer">
+                        <div class="swiper-slide slide">
+                            <div class="slide__wrapper">
+                                <p class="slide__banner">СКИДКИ ДО 25%</p>
+                                <h2 class="slide__title">Спреи для кожи от <br>Leather Defender Corp.</h2>
+                                <p class="slide__text">Средства премиального класса для ухода за изделиями из натуральной кожи по самым выгодным ценам.</p>
+                                <a href="#!" class="slide__link icon-arrow-right2">Подробнее</a>
+                            </div>
+                            <img class="slide__img" src="/img/slider/slider001.png" alt="shoe care products">
+                        </div>
 
-    </footer>
+                        <div class="swiper-slide slide">
+                            <div class="slide__wrapper">
+                                <p class="slide__banner">СКИДКИ ДО 25%</p>
+                                <h2 class="slide__title">Спреи для кожи от <br>Leather Defender Corp.</h2>
+                                <p class="slide__text">Средства премиального класса для ухода за изделиями из натуральной кожи по самым выгодным ценам.</p>
+                                <a href="#!" class="slide__link icon-arrow-right2">Подробнее</a>
+                            </div>
+                            <img class="slide__img" src="/img/slider/slider001.png" alt="shoe care products">
+                        </div>
 
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
 
