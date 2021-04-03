@@ -98,9 +98,9 @@ icons */
 
 .icon-cart:before {
     content: "\e93a";
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 20px;
+    left: 20px; */
 }
 
 
@@ -167,13 +167,6 @@ header */
 
 .header__menu_list li+li {
     margin-left: 2vw;
-}
-
-.header__menu_cart {
-    position: relative;
-    padding-left: 50px;
-    font-size: 0.8rem;
-    border: 1px solid green;
 }
 
 
