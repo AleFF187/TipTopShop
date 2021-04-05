@@ -196,10 +196,6 @@ main */
     margin: 2rem 0 0 0;
 }
 
-.swiper-container {
-    max-width: 90%;
-}
-
 .swiper-pagination-bullet-active {
     background-color: var(--brown) !important;
 }
@@ -316,6 +312,39 @@ main */
 
 .slide__img {
     height: 410px;
+}
+
+
+/* promo01 */
+
+.promo01 {
+    margin: 30px 0;
+    background-image: url(../img/promo01/bg.svg);
+    text-align: center;
+}
+
+.promo01__logo {
+    margin: 100px 0 25px;
+}
+
+.promo01__title {
+    overflow: hidden;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    margin: 0 0 3rem;
+    padding: 0 20px;
+}
+
+.promo01__text {
+    width: 800px;
+    overflow: hidden;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.8em;
+    padding: 0 0 125px;
+    margin: 0 auto;
 }
 
 
