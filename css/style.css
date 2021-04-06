@@ -317,17 +317,18 @@ main */
 
 /* promo01 */
 
-.promo01 {
+.promo {
     margin: 30px 0;
-    background-image: url(../img/promo01/bg.svg);
+    padding: 0 0 100px;
+    background-image: url(../img/promo/bg.svg);
     text-align: center;
 }
 
-.promo01__logo {
+.promo__logo {
     margin: 100px 0 25px;
 }
 
-.promo01__title {
+.promo__title {
     overflow: hidden;
     font-size: 2rem;
     font-weight: 900;
@@ -337,14 +338,17 @@ main */
     padding: 0 20px;
 }
 
-.promo01__text {
-    width: 800px;
+.promo__text {
+    width: 850px;
     overflow: hidden;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.8em;
-    padding: 0 0 125px;
     margin: 0 auto;
+}
+
+.promo p+p {
+    padding: 15px 0 0;
 }
 
 
