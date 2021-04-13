@@ -442,11 +442,25 @@ email */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+}
+
+.collection__item::before {
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, var(--black), var(--white));
+    opacity: 0.35;
 }
 
 .collection__item_inner {
     display: flex;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .collection__item_title {
