@@ -86,6 +86,10 @@ icons */
     content: "\ea98";
 }
 
+.icon-cart:before {
+    content: "\e93a";
+}
+
 .icon-location2::before {
     content: '\e948';
     position: absolute;
@@ -113,13 +117,6 @@ icons */
     top: 50%;
     transform: translateY(-50%);
     left: 1rem;
-}
-
-.icon-cart:before {
-    content: "\e93a";
-    /* position: absolute;
-    top: 0;
-    left: 20px; */
 }
 
 
@@ -408,7 +405,108 @@ email */
 
 
 /* --------------------------------------------------------------------------------  
- promo01 */
+ collection */
+
+.collection {
+    text-align: center;
+}
+
+.collection__logo {
+    width: 30px;
+    margin: 50px 0 10px;
+}
+
+.collection__title {
+    font-size: 1.85rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    margin: 0 0 25px;
+}
+
+.collection__wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 650px 650px;
+    grid-template-rows: 310px 310px 310px 310px;
+    gap: 20px 20px;
+    color: var(--white);
+    grid-template-areas: 'item00 .' 'item00 .' '. item05' '. item05';
+    margin: 0 0 30px;
+}
+
+.collection__item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collection__item_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection__item_title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 350px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.collection__item_link {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--lightgray);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.collection__item_link:hover {
+    color: var(--black);
+    background-color: var(--gray);
+}
+
+.collection__item_price {
+    font-size: 1rem;
+}
+
+.collection__item_value {
+    font-size: 1rem;
+}
+
+.item00 {
+    grid-area: item00;
+    background-image: url(../img/collection/collection_img00.jpg);
+}
+
+.item01 {
+    background-image: url(../img/collection/collection_img01.jpg);
+}
+
+.item02 {
+    background-image: url(../img/collection/collection_img02.jpg);
+}
+
+.item03 {
+    background-image: url(../img/collection/collection_img03.jpg);
+}
+
+.item04 {
+    background-image: url(../img/collection/collection_img04.jpg);
+}
+
+.item05 {
+    grid-area: item05;
+    background-image: url(../img/collection/collection_img05.jpg);
+}
+
+
+/* --------------------------------------------------------------------------------  
+ promo */
 
 .promo {
     margin: 30px 0;
