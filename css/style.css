@@ -670,12 +670,53 @@ email */
 }
 
 .journal__button {
+    cursor: pointer;
     background-color: var(--midbrown);
     color: var(--white);
     font-size: 0.8rem;
     padding: 1em 2em;
     border-radius: 1rem;
     margin: 0 0 5em;
+}
+
+
+/* --------------------------------------------------------------------------------  
+footer */
+
+.footer {}
+
+.footer__container {
+    background-color: var(--lightgray);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__inner {
+    margin: 50px 20px;
+    width: 350px;
+}
+
+.footer__title {
+    text-decoration: underline;
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin: 0 0 2rem;
+}
+
+.footer__item {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.footer__item:hover {
+    color: var(--black);
+}
+
+.footer__list li+li {
+    margin: 15px 0 0;
 }
 
 
