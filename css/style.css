@@ -214,14 +214,16 @@ header__menu  */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 0.8rem;
 }
 
 .header__menu_list li+li {
-    margin-left: 2vw;
+    margin-left: 2rem;
 }
 
 .header__menu_item {
+    margin: 0.5rem 0;
     text-align: center;
     cursor: pointer;
 }
@@ -238,11 +240,13 @@ header__menu  */
     border-radius: 2px;
     background-color: var(--brown);
     margin: 3px 0;
+    transition: transform 0.3s;
 }
 
 .button__item_1 {
-    width: 50px;
+    width: 42px;
     transform: translateY(8px) rotate(45grad);
+    transition: transform 0.3s;
 }
 
 .button__item_2 {
@@ -250,8 +254,9 @@ header__menu  */
 }
 
 .button__item_3 {
-    width: 50px;
+    width: 42px;
     transform: translateY(-8px) rotate(-45grad);
+    transition: transform 0.3s;
 }
 
 @media (max-width: 550px) {
